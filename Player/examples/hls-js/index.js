@@ -10,7 +10,8 @@ async function initApp() {
 
     let video = document.getElementById('video');
     const manifestUrl = document.getElementById('manifestUrl');
-    let videoSrc = '//aka.ms/lowlatencydemo.m3u8';
+    let videoSrc = 'https://spotvideos-usea.streaming.media.azure.net/4ac841aa-1f91-40f0-8bfd-8650da0ffcea/ce6f885b-b5ee-41a2-a181-5f5e2e4ecf34.ism/manifest(format=m3u8-cmaf)';
+    // let videoSrc = '//aka.ms/lowlatencydemo.m3u8';
     // Apple also hosts a live LL-HLS CMAF sample here https://ll-hls-test.apple.com/cmaf/master.m3u8
 
     //
